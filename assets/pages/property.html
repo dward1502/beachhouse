@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/style.css" />
 </head>
 
 <body>
@@ -20,13 +20,11 @@
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul class="navbar-nav ">
-                <li class="nav-item active">
-                    <a class="nav-link" href="../../index.html">Home
-                        <span class="sr-only">(current)</span>
-                    </a>
-                </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="property.html">View Property</a>
+                    <a class="nav-link" href="../../index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="property.html">View Property<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="activity.html">Activities</a>
@@ -39,17 +37,47 @@
     </nav>
     <div class="page-cont">
         <div class="slideshow">
-
+            <div class="slideshow-container">
+                <div class="mySlides">
+                    <img src="http://via.placeholder.com/400x150" style="width: 100%">
+                </div>
+            
+                <div class="mySlides">
+                    <img src="http://via.placeholder.com/400x150" style="width: 100%">
+                </div>
+            </div>
         </div>
         <div class="row">
-            <div class="col-md-6">Property specific details</div>
-            <div class="col-md-4">Amenities included</div>
-            <div class="col-md-2"><button class="btn btn-default">Book now</button></div>
+            <div class="col-md-5"></div>
+            <div class="col-md-2 btnCon">
+                <button class="btn contactBtn book btn-default">Book now</button>
+            </div>
+            <div class="col-md-5"></div>
         </div>
         <div class="row">
-            <div class="col-md-6">Paragraph for specific details</div>
-            <div class="col-md-6">Paragraph for amenities included</div>
+            <div class="col-md-1"></div>
+            <div class="col-md-5 propCon">
+                <h3>Property Details</h3>
+                <p id="propP">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-4 propCon">
+                <h3>Amenities Included</h3>
+                <div id="amenitylist ">
+                    <ul id="aList">
+                        <li>First item</li>
+                        <li>Second item</li>
+                        <li>Third item</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
         </div>
+       
+      
         <footer>
             <p>Copyright</p>
         </footer>
@@ -61,7 +89,7 @@
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="../js/main.js"></script>
 
 </body>
 
