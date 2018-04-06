@@ -4,6 +4,7 @@
 .slideshow-container {
     z-index: 1;
 }
+
 #slogan{
     margin-top: 30px;
     margin-left: 15%;
@@ -54,19 +55,25 @@ h3{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 400;
 }
-.book{
-    margin-top: 20px;
-    margin-left: 25px;
-}
 .btnCon {
-    margin-left: 5%;
+    margin-left: 45%;
     margin-top: 15px;
 }
+.slideshow-container-prop {
+    width: 1000px;
+    height: 300px;
+    margin: 2% 10% 5% 15%;
+}
+.row-slide{
+    height: 450px;
+    margin-bottom: 20px;
+}
+
 /*--------------------------------------------
 [ Activity section]*/
 .con{
     width: 80%;
-    height: 700px;
+    height: 800px;
     border: solid 2px red;
     margin-top: 25px;
     margin-bottom: 25px;
